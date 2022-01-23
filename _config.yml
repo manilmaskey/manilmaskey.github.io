@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Manil Maskey"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Senior Research Scientist, National Aeronautics and Space Administration"
+  bio    : "Senior Research Scientist"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
