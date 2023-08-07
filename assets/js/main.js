@@ -76,7 +76,7 @@
 		// Inactive by default on <= large.
 			
 			$sidebar.addClass('inactive');
-\
+
 		// Hack: Workaround for Chrome/Android scrollbar position bug.
 			if (browser.os == 'android'
 			&&	browser.name == 'chrome')
