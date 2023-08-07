@@ -10,6 +10,7 @@ document.getElementById("mysidebar").innerHTML =
             '<li><a href="/#competition">Competitions</a></li>'+
             '<li><a href="/#datasets">Datasets</a></li>'+
             '<li><a href="/#outreach">Outreach</a></li>'+
+            '<li><a href="/#interviews">Interviews and Articles</a></li>'+
             '<!--'+
             '<li><a href="generic.html">Generic</a></li>'+
             '<li><a href="elements.html">Elements</a></li>'+
