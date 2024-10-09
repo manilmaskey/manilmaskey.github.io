@@ -1,18 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta name="description" content="gifs">
-   <meta name="keywords" content="HTML,CSS">
-   <meta name="author" content="lokesh">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OASIS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+        }
+
+        .logo {
+            font-size: 3em;
+            font-weight: bold;
+            color: #4285F4;
+        }
+
+        .subtitle {
+            font-size: 1.5em;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        .demos {
+            list-style-type: none;
+            padding: 0;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .demos li {
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .demos li:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .demos li a {
+            text-decoration: none;
+            font-size: 1.2em;
+            color: #4285F4;
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #aaa;
+        }
+    </style>
 </head>
 <body>
-   <center>
 
-   <div>
-   <img src="u500_target.gif" width="30%"><img src="u500_predicted.gif" width="30%">
-   <img src="u500_diff.gif" width="40%">
-   </center>
+    <div class="logo">Explore Latest Demos</div>
+    <div class="subtitle"></div>
+
+    <ul class="demos">
+        <li><a href="clifford.html">Demo 1: Clifford</a></li>
+        <li><a href="wxc-hurricane.html">Demo 2: Prithvi WxC Foundation Model - Hurricane Prediction</a></li>
+        <li><a href="prithvi-inference.html">Demo 3: Prithvi Geospatial - Applications</a></li>
+        <li><a href="#demo4">Demo 4: Helio FM Results</a></li>
+    </ul>
+
+    <footer>NASA OASIS/IMPACT</footer>
+
 </body>
 </html>
