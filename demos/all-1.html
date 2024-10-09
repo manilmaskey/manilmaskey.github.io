@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI demos</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body, html {
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+            background-color: #f0f0f0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            height: 100%;
+        }
+        .media-section {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            height: 50%;
+        }
+        .gifs-container, .gif-container, .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+        }
+        .gifs-container img {
+            margin-right: 10px;
+        }
+        video {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top Left (3 GIFs) -->
+    <div class="container">
+        <div class="media-section">
+            <div class="gifs-container">
+                <img src="u500_target.gif" alt="GIF 1">
+                <img src="u500_predicted.gif" alt="GIF 2">
+                <img src="u500_diff.gif" alt="GIF 3">
+            </div>
+            <!-- Top Right (1 GIF) -->
+            <div class="gif-container">
+                <img src="2021-Ida.gif" alt="GIF 4">
+            </div>
+        </div>
+
+        <!-- Bottom Left (MP4 Video) -->
+        <div class="media-section">
+            <div class="video-container">
+                <video controls>
+                    <source src="PImac.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <!-- Bottom Right (1 GIF) -->
+            <div class="gif-container">
+                <img src="optimize.gif" alt="GIF 5">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
